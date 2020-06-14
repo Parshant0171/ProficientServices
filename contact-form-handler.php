@@ -1,6 +1,7 @@
 <?php
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
+    $visitor_number = $_POST['number'];
     $message = $_POST['message'];
 
     $email_from = 'https://parshant0171.github.io/Proficient';
@@ -9,6 +10,7 @@
 
     $email_body = "User Name: $name.|\n".
                         "User Email: $visitor_email.\n".
+                        "User Phone: $visitor_number. \n".
                             "User Message: $message.\n";
 
     $to = "dikshantyadav07@gmail.com";
