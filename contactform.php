@@ -10,7 +10,7 @@
         $txt = "You have received and e-mail from ".$name.".\n\n".$message;
 
 
-        mail($mailTo, $number, $txt, $headers);
+        mail($mailTo, $txt, $headers);
         header("Location: index.html?mailsend");
     }
 
