@@ -1,0 +1,118 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/company-reg-back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+p{
+    height: auto;
+}
+/*#007bff*/
+h1{
+    text-align: center;
+    margin: 50px auto 130px !important;
+    color: #fff;
+}
+
+h1::after{
+    content: '';
+    background-image: linear-gradient(to right,yellow, #007bff, yellow);
+    display: block;
+    height: 3px;
+    width: 500px;
+    margin: 20px auto 5px;
+}
+
+.main{
+    width: 100%;
+    min-height: 380px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.services{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    box-shadow: 0 0 20px -15px #030380;
+    transition: transform 0.8s;
+    height: 427px;
+}
+
+.container .col-md-4{
+    margin-bottom: 80px;
+    height: 400px;
+}
+
+.services h4{
+    height: auto;
+    width: 80%;
+    background: #fff;
+    margin: 50px auto;
+    position: relative;
+}
+
+.services h4::after{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #fff,#007bff);
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: -1;
+}
+
+.services h4::before{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right,#007bff, #fff);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+.shadowOne{
+    height: 200px;
+    width: 80%;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 10%;
+    z-index: -1;
+    box-shadow: 0 0 20px -15px #030380;
+    transition: transform 0.8s;
+}
+.shadowTwo{
+    height: 200px;
+    width: 64%;
+    background: #fff;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 18%;
+    z-index: -2;
+    
+}
+
+.main:hover .services{
+    transform: translateY(-50px);
+}
+.main:hover .shadowOne{
+    transform: translateY(-25px);
+}

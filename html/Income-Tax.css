@@ -5,8 +5,7 @@
 }
 
 body{
-    /*background-image: linear-gradient(to right, white, green, yellow);*/
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/gstpage.jpg);
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/income-tax-back.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
