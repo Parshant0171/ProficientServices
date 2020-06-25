@@ -12,7 +12,7 @@
         <!----------Navigation Bar------------------>
         <section id="nav-bar">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#"><img src="images/logo.jpg"></a>
+                <!--<a class="navbar-brand" href="#"><img src="images/logo.jpg"></a>-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -38,8 +38,29 @@
               </nav>
         </section>
 
+        <!--Logo and whatsapp contact-->
+        <section id="detail">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 logo text-center">
+                <img style="float: left;" src="images/company-logo.jpg">
+              </div>
+
+              <div class="col-md-6 text-center">
+                <div class="icon" style="float: right;">
+                  <a href="https://api.whatsapp.com/send?phone=919999095181&text=Welcome%20to%20Advocate%20Dikshant%20Yadav!" target="blank">
+                    <i class="fa fab fa-whatsapp" aria-hidden="true" style="font-size:50px;"></i>
+                    <h5>Call Us: <strong>+919999095181</strong></h5>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         <!-----Slider------>
-        <div id="slider">
+        <section id="slider">
           <div id="headerSlider" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
@@ -85,7 +106,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        </div>
+        </section>
 
         <!---About Section-->
         <section id="about">
@@ -274,7 +295,8 @@
             <h1>Get In Touch</h1>
             <div class="row">
               <div class="col-md-6">
-                <form class="contact-form" action="contactform.php" method="post">
+                <!--<form class="contact-form" action="https://formspree.io/pankajyadav1197@gmail.com"
+                method="POST">
                   <div class="form-group">
                     <input type="text" class="form-control" placeholder="Your Name">
                   </div>
@@ -290,7 +312,24 @@
                   <button type="submit" class="btn btn-primary">
                     Send Message
                   </button>
-                </form>
+                </form>-->
+                <form action="https://formspree.io/pankajyadav1197@gmail.com" method="POST">
+              
+                  <div class="form-group">
+                      <input type="text" class="form-control" name="name" placeholder="Your Name">
+                  </div>
+                  <div class="form-group">
+                      <input type="number" class="form-control" name="Phone No" placeholder="Phone Number">
+                  </div>
+                  <div class="form-group">
+                      <input type="email" class="form-control" name="_replyto" placeholder="Email-Id">
+                  </div>
+                  <div class="form-group">
+                      <textarea name="message" row="8" class="form-control" placeholder="Message"></textarea>
+                  </div>
+                  <input class="btn btn-primary" type="submit" value="Send">
+              </form>
+              
               </div>
 
               <div class="col-md-6 contact-info">

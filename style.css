@@ -35,7 +35,7 @@
 .navbar
 {
     background: #FFFFFF;
-    background-image: linear-gradient(to right, white ,white, green, yellow);
+    background-image: linear-gradient(to right, white, green,yellow, yellow);
 }
 
 .navbar-toggler
@@ -53,12 +53,19 @@
 .d-block{
     background-size: 100%;
 }
+/***instant-contact***/
+.icon{
+    
+}
+
+
 
 /****Slider******/
 
 #slider
 {
-    width: 100%;
+    width: 80%;
+    margin: 0px auto 0px auto;
 }
 
 .carousel-caption
@@ -248,6 +255,9 @@ marquee{
     padding-bottom: 10px;
 }
 
+form{
+    margin-top: 15px;
+}
 #contact h1::after{
     content: '';
     background-color: green;
@@ -273,7 +283,7 @@ marquee{
     padding: 10px;
     margin: 15px;
     border-radius: 5px;
-    color: green;
+    color: rgb(46, 45, 45);
 }
 
 .contact-info .fa{
