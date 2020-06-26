@@ -54,30 +54,35 @@
     background-size: 100%;
 }
 /***instant-contact***/
-.icon{
-    
+.icon a{
+    color: black;
 }
-
+.icon i{
+    color: green;
+}
 
 
 /****Slider******/
 
 #slider
 {
-    width: 80%;
+    width: 100%;
     margin: 0px auto 0px auto;
 }
 
 .carousel-caption
 {
     margin: auto;
-    height: 60px;
+    height: 600px;
     width: 400px;
     text-align: center;
+    vertical-align: center;
 }
 
 .color-text{
-    color: green;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
 }
 
 
