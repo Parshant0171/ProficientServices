@@ -1,0 +1,65 @@
+<svg width="100%" viewBox="0 0 200 208" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-l" x1="30%" y1="20%" x2="70%" y2="80%">
+      <stop offset="0%" stop-color="#1A3A6A"/>
+      <stop offset="100%" stop-color="#080E2A"/>
+    </linearGradient>
+    <linearGradient id="cert-l" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFBE8"/>
+      <stop offset="100%" stop-color="#E8DEB8"/>
+    </linearGradient>
+    <linearGradient id="ribbon-l" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E84040"/>
+      <stop offset="100%" stop-color="#9A1010"/>
+    </linearGradient>
+    <linearGradient id="medal-l" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F5D060"/>
+      <stop offset="100%" stop-color="#B88010"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="100" cy="100" r="98" fill="url(#bg-l)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="100" cy="100" r="98" fill="none" stroke="#D4AA40" stroke-width="4" style="fill:none;stroke:rgb(212, 170, 64);color:rgb(255, 255, 255);stroke-width:4px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="100" cy="100" r="91" fill="none" stroke="#D4AA40" stroke-width="1" opacity="0.3" style="fill:none;stroke:rgb(212, 170, 64);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.3;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Certificate document -->
+  <rect x="34" y="36" width="110" height="110" rx="6" fill="url(#cert-l)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Certificate border decoration -->
+  <rect x="40" y="42" width="98" height="98" rx="4" fill="none" stroke="#D4AA40" stroke-width="1.5" style="fill:none;stroke:rgb(212, 170, 64);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="44" y="46" width="90" height="90" rx="3" fill="none" stroke="#D4AA40" stroke-width="0.5" opacity="0.5" style="fill:none;stroke:rgb(212, 170, 64);color:rgb(255, 255, 255);stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Certificate header bar -->
+  <rect x="40" y="42" width="98" height="16" rx="4" fill="#1A3A6A" style="fill:rgb(26, 58, 106);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Header text lines -->
+  <line x1="58" y1="50" x2="120" y2="50" stroke="#D4AA40" stroke-width="1.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(212, 170, 64);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Certificate content lines -->
+  <line x1="52" y1="72" x2="126" y2="72" stroke="#B0A888" stroke-width="2" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(176, 168, 136);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="52" y1="82" x2="126" y2="82" stroke="#B0A888" stroke-width="2" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(176, 168, 136);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="52" y1="92" x2="110" y2="92" stroke="#B0A888" stroke-width="2" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(176, 168, 136);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="52" y1="102" x2="118" y2="102" stroke="#B0A888" stroke-width="1.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(176, 168, 136);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <line x1="52" y1="110" x2="100" y2="110" stroke="#B0A888" stroke-width="1.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(176, 168, 136);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Signature line -->
+  <line x1="52" y1="128" x2="90" y2="128" stroke="#888" stroke-width="1" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(136, 136, 136);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <path d="M54,126 Q60,122 66,126 Q72,130 78,126" fill="none" stroke="#3A2A8A" stroke-width="1.5" stroke-linecap="round" style="fill:none;stroke:rgb(58, 42, 138);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Medal / seal -->
+  <!-- Ribbon left -->
+  <path d="M118,130 L110,158 L122,152 L126,162 L134,134" fill="url(#ribbon-l)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Ribbon right -->
+  <path d="M142,130 L150,158 L138,152 L134,162 L126,134" fill="url(#ribbon-l)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Medal circle outer -->
+  <circle cx="130" cy="124" r="26" fill="url(#medal-l)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="130" cy="124" r="21" fill="#F5D060" style="fill:rgb(245, 208, 96);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Medal star rays -->
+  <circle cx="130" cy="124" r="16" fill="url(#medal-l)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="130" cy="124" r="12" fill="#F8E070" style="fill:rgb(248, 224, 112);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Star in medal -->
+  <polygon points="130,112 133,121 142,121 135,127 138,136 130,130 122,136 125,127 118,121 127,121" fill="#B88010" style="fill:rgb(184, 128, 16);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Gold star top -->
+  <circle cx="100" cy="14" r="8" fill="#D4AA40" style="fill:rgb(212, 170, 64);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <polygon points="100,8 101.8,13.4 107.4,13.4 102.9,16.7 104.7,22.1 100,18.8 95.3,22.1 97.1,16.7 92.6,13.4 98.2,13.4" fill="#F5D060" style="fill:rgb(245, 208, 96);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

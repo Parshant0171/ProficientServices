@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none" stroke="#2c3e50" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+  
+  <!-- Base -->
+  <line x1="60" y1="180" x2="140" y2="180"/>
+  
+  <!-- Stand -->
+  <line x1="100" y1="40" x2="100" y2="180"/>
+  
+  <!-- Top bar -->
+  <line x1="40" y1="60" x2="160" y2="60"/>
+  
+  <!-- Left chain -->
+  <line x1="60" y1="60" x2="50" y2="100"/>
+  
+  <!-- Right chain -->
+  <line x1="140" y1="60" x2="150" y2="100"/>
+  
+  <!-- Left scale -->
+  <ellipse cx="50" cy="115" rx="25" ry="12"/>
+  
+  <!-- Right scale -->
+  <ellipse cx="150" cy="115" rx="25" ry="12"/>
+  
+</svg>

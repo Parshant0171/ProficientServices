@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none" stroke="#2c3e50" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+
+  <!-- Document -->
+  <rect x="45" y="35" width="80" height="110" rx="8" ry="8"/>
+  <line x1="60" y1="65" x2="110" y2="65"/>
+  <line x1="60" y1="85" x2="110" y2="85"/>
+  <line x1="60" y1="105" x2="95" y2="105"/>
+
+  <!-- Shield -->
+  <path d="M135 75
+           L165 85
+           V112
+           C165 132 151 145 135 153
+           C119 145 105 132 105 112
+           V85
+           Z"/>
+
+  <!-- Check inside shield -->
+  <path d="M123 111 L132 120 L148 101"/>
+
+</svg>

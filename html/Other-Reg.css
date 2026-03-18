@@ -5,8 +5,8 @@
 }
 
 body{
-    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/Other-reg-back.jpg);
-    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(../images/brand_plain_background.svg);
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,11 +15,12 @@ body{
 p{
     height: auto;
 }
-/*#007bff*/
+
 h1{
     text-align: center;
     margin: 50px auto 130px !important;
-    color: #fff;
+    color: #D4AA40;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.5);
 }
 
 h1::after{
